@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poiret+One&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="all">
+        <h1>
+            Новый рецепт
+        </h1>
+        <div class="stats">
+            <p>
+                1. Сложность
+            </p>
+            <input class="complexity" placeholder="Укажите  сложность">
+            <p> 2. Название</p>
+            <input class="name" placeholder="Укажите  название">
+            <p> 3. Bремя приготовления </p>
+            <input class="tim" placeholder="Укажите  время приготовления ">
+            <p> 4. Колличество порций </p>
+            <input class="portion" placeholder="Укажите  количество порций">
+            <p> 5. Колличество углеводов </p>
+
+            <input class="carbohydrates" placeholder="Укажите  колличество углеводов">
+            <p> 6. Колличество жиров</p>
+
+            <input class="fats" placeholder="Укажите  колличесвто жиров ">
+            <p> 7. Колличество белков </p>
+
+            <input class="proteins" placeholder="Укажите  колличесвто белков ">
+            <p> 8. Колличество калорий</p>
+
+            <input class="calories" placeholder="Укажите  колличесвто калорий ">
+            <p style="font-weight: 600; font-size: 20px;"> Описание </p>
+            <input class="opis" placeholder="Придумайте описаниие ">
+        </div>
+
+        <button class="add">Создать рецепт</button>
+
+    </div>
+
+
+    <script>
+        let level = document.querySelector(".complexity")
+        let name = document.querySelector(".name")
+        let time = document.querySelector(".tim")
+        let portion = document.querySelector(".portion")
+        let carbohydrates = document.querySelector(".carbohydrates")
+        let fats = document.querySelector(".fats")
+        let proteins = document.querySelector(".proteins")
+        let calories = document.querySelector(".calories")
+        let descripion = document.querySelector(".opis")
+        let addBtn = document.querySelector(".add")
+        let addBtn2 = document.querySelector(".add2")
+        let ingr = document.querySelector(".ingredients")
+
+
+        addBtn2.addEventListener("click", () => {
+            let file = ingr.files[0];
+            let text = fs.readFileSync(file, 'utf8')
+            console.log(reader.result)
+        })
+
+        addBtn.addEventListener("click", () => {
+            alert("sasasa")
+            let recipe = {
+                Stars: level.value,
+                Name: name.value,
+                Description: descripion.value,
+                Time: time.value,
+                Portion: Number(portion.value),
+                imageUrl: "",
+                EnergyValue: {
+                    Calories: calories.value,
+                    Squirrels: proteins.value,
+                    Fats: fats.value,
+                    Carbohydrates: carbohydrates.value
+                }
+            }
+
+
+
+            let json = JSON.stringify(recipe)
+            send(json)
+
+            async function send(recipe) {
+                const response = await fetch("/api/add", {
+                    method: "POST",
+                    headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                    body: recipe
+                });
+                console.log(response.text())
+            }
+        })
+    </script>
+
+</body>
+</html>

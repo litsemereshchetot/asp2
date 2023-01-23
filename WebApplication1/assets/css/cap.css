@@ -1,0 +1,15 @@
+﻿
+.cap {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #b8b8b8;
+    gap: 50px;
+}
+
+.cap-text {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 200%;
+}

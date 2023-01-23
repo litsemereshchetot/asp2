@@ -1,0 +1,90 @@
+﻿
+.index {
+    display: none;
+}
+
+.recipe {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    gap: 45px;
+    margin-bottom: 100px;
+}
+
+.recipe__image {
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+}
+
+    .recipe__image img {
+        width: 150%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.recipe__card {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 350px - 20px)
+}
+
+
+.recipe__stars-and-type {
+    color: #b8b8b8;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.recipe__name {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.recipe__info {
+    margin-top: 20px;
+    display: flex;
+    text-transform: uppercase;
+    gap: 20px;
+}
+
+.recipe__ingredients {
+    padding-right: 30px;
+    border-right: 1px solid #b8b8b8;
+}
+
+.recipe__galary {
+    height: 150px;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    gap: 30px;
+}
+
+.recipe__galary-item {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+    .recipe__galary-item img {
+        width: 150%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+        .recipe__galary-item img:hover {
+            cursor: pointer;
+        }
+
+
+.recipe__name:hover {
+    cursor: pointer;
+}

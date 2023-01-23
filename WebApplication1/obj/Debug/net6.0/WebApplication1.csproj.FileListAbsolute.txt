@@ -1,0 +1,76 @@
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\neazi\source\repos\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\stud\Desktop\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\appsettings.json
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.exe
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.deps.json
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.runtimeconfig.json
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\WebApplication1.pdb
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.AssemblyInfo.cs
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\refint\WebApplication1.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.pdb
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.genruntimeconfig.cache
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\ref\WebApplication1.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\MySql.Data.xml
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\obj\Debug\net6.0\WebApplication1.csproj.CopyComplete
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\neazi\OneDrive\Рабочий стол\WebApplication1\WebApplication1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll

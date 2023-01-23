@@ -1,0 +1,17 @@
+﻿
+.main {
+    margin-top: 200px;
+}
+
+.main__inner {
+    background-color: #fff;
+    /* height: 1000px; */
+    padding: 50px 30px;
+}
+
+.main__head {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}

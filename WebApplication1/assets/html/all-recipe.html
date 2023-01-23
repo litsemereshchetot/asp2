@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all-recipe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/recipe.css">
+    <link rel="stylesheet" href="css/cap.css">
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+     <div class="header">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+                </div>
+                <div class="header__nav">
+                    <ul>
+                        <li><a href="">Сложность</a></li>
+                        <li><a href="all-recipe">Все рецепты</a></li>
+                        <li><a href="">Тип</a></li>
+                    </ul>
+                </div>
+                <div class="header__links-list">
+                    <div class="header__link">
+                        <img src="images/person.png" alt="">
+                    </div>
+                    <div class="header__link">
+                        <img src="images/sunny.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__head">
+                    <p>Рецепты</p>
+                </div>
+
+                <div class="main__recipe-list">
+
+                </div>
+
+                <div class="cap">
+                    <img src="images/cap.png" alt="">
+                    <div class="cap-text">
+                        <p>Я не придумал, что должно быть на главной странице,<br> так что смотрите на классную чашечку</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        let allRecipes;
+        (async function dode() {
+            allRecipes = await getRecipes();
+
+            for (let i = 0; i < allRecipes.length; i++) {
+                document.querySelector('.main__recipe-list').innerHTML += compileRecipe(allRecipes[i]);
+            }
+            let recipesName = document.querySelectorAll(".recipe__name p")
+            console.log(recipesName)
+            for (let i = 0; i < recipesName.length; i++) {
+                recipesName[i].addEventListener("click", () => {
+                    window.location.href = 'recipe/' + (i + 1)
+                })
+            }
+            addClickListeners();
+        })();
+        function compileRecipe(recipe) {
+
+
+            return `
+        <div class="recipe">
+        <div class="index">${recipe}</div>
+            <div class="recipe__image">
+                <img src="${recipe.imageUrl}" alt="">
+            </div>
+            <div class="recipe__card">
+                <div class="recipe__stars-and-type">
+                    <pre><span class="recipe__stars">${recipe.stars}</span>   <span class="recipe__type">${recipe.type}</span></pre>
+                </div>
+                <div class="recipe__name"><p>${recipe.name}</p></div>
+                <div class="recipe__info">
+                    <div class="recipe__ingredients">${recipe.ingredients.length + " ингридиентов"}</div>
+                    <div class="recipe__portion">${recipe.portion + " порций"}</div>
+                    <div class="recipe__time">${recipe.time}</div>
+                </div>
+                <div class="recipe__galary">
+                    ${function (galary) {
+                    let ret = ""
+                    for (let i = 0; i < galary.length; i++) {
+                        ret = ret + `
+                                <div class="recipe__galary-item">
+                                    <img src="${galary[i]}" alt="">
+                                </div>
+                                `
+
+                    }
+                return ret;
+                }(recipe.galaryPhotos)
+                }
+                </div>
+            </div>
+        </div>
+    `
+        }
+
+
+        async function getRecipes() {
+           const to_return_data = await fetch("/api/recipe/get-all", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            })
+                .then(async (response) => {
+                    return response.json().then(theData => theData);
+                })
+            return to_return_data;
+            };
+
+
+    </script>
+    <script src="js/recipe-full.js"></script>
+    <script src="js/recipe.js" defer></script>
+
+</body>
+</html>

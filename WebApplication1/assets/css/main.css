@@ -1,0 +1,42 @@
+﻿
+/* 
+div{
+    border: 1px solid black;
+} */
+
+
+.main {
+    margin-top: 200px;
+}
+
+.main__inner {
+    background-color: #fff;
+    /* height: 1000px; */
+    padding-top: 50px;
+}
+
+.main__head {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.main__add-recipe {
+    display: flex;
+    justify-content: center;
+}
+
+.add-recipe {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #b8b8b8;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #b8b8b8;
+    margin: 100px 0;
+}
+
+.add-recipe:hover {
+    cursor: pointer;
+}

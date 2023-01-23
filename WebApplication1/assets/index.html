@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/cap.css">
+
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            </div>
+            <div class="header__nav">
+                <ul>
+                    <li><a href="">Сложность</a></li>
+                    <li><a href="all-recipe">Все рецепты</a></li>
+                    <li><a href="">Тип</a></li>
+                </ul>
+            </div>
+            <div class="header__links-list">
+                <div class="header__link">
+                    <img src="images/person.png" alt="">
+                </div>
+                <div class="header__link">
+                    <img src="images/sunny.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__head">
+                    <p>Моя книга рецептов</p>
+                    <div class="main__add-recipe">
+                        <button class="add-recipe">Добавить новый рецепт</button>
+                    </div>
+                </div>
+                <div class="cap">
+                    <img src="images/cap.png" alt="">
+                    <div class="cap-text">
+                        <p>Я не придумал, что должно быть на главной странице,<br> так что смотрите на классную чашечку</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+
+        let addBtn = document.querySelector(".add-recipe")
+        addBtn.addEventListener("click", () => {
+            window.location.href = 'add'
+        })
+
+    </script>
+</body>
+</html>

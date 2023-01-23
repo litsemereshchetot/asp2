@@ -1,0 +1,81 @@
+body{display: flex;
+   justify-content: center;
+   font-family: 'Roboto', sans-serif;
+   background-color: rgb(231, 231, 231);
+}
+
+h1{
+    display: flex;
+   justify-content: center;
+
+}
+p{
+    margin-bottom: 5px;
+    display: flex;
+   justify-content: center;
+   margin-right: 50px
+}
+.stats{ 
+    width: 450px;
+    padding-top: 20px;
+    padding-left:50px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgb(175, 175, 175);
+    border-top: 2px solid rgb(175, 175, 175);
+}
+
+.all{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+ 
+}
+input{
+    text-rendering:auto;
+    cursor:auto ;
+    width: 400px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 1px;
+    border: 2px solid rgb(146, 146, 146);
+ 
+}
+input:focus{   
+    color: rgb(0, 0, 0);
+    border-color: #000000;
+    outline: 0;
+    
+}
+.fails{ display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 12px;
+
+}
+.opis{ 
+
+    width: 400px;
+    height: 200px;
+    
+    
+}
+
+.picturef_of_dish{
+    margin-left:25px;
+    margin-top: 5px;
+    border-color: rgb(95, 221, 91);
+    width: 425px;
+    height: 200px;
+ 
+}
+
+.picturef_of_preparation{
+    background-color: white;
+    margin-left:25px;
+    margin-top: 5px;
+    border-color: rgb(95, 221, 91);
+    width: 425px;
+    height: 200px;
+}
+
